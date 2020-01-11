@@ -43,7 +43,7 @@ public class GLFWWindow {
             return;
         }
 
-        //check user defined mode available
+        //check user defined video  mode allowed on currient monitor
         GLFWVidMode.Buffer b = glfwGetVideoModes(getMonitor());
         String defaultMode = Settings.VideoMode.get();
         String[] mode = defaultMode.split("[x,@]");
@@ -57,6 +57,7 @@ public class GLFWWindow {
             }
         });
         int width, height, refreshRate;
+        //if user defined video mode allowed
         if (hasVideoMode.get()) {
             width = vidMode.get().width();
             height = vidMode.get().height();
@@ -71,6 +72,8 @@ public class GLFWWindow {
         //window hints setup and window creation
         glfwDefaultWindowHints();
         glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+        glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
+
         switch (mode[3]) {
             case "B": //borderless
                 glfwWindowHint(GLFW_DECORATED, GLFW_FALSE);
@@ -121,6 +124,10 @@ public class GLFWWindow {
 
     public void showWindow() {
         glfwShowWindow(id);
+    }
+
+    public void hideWindow() {
+        glfwHideWindow(id);
     }
 
     public void swapBuffers() {

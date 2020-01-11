@@ -9,6 +9,7 @@ public class Interaction {
     public void initialise() {
         audio = new AudioSystem();
         input = new Input();
+
         //todo
     }
 }

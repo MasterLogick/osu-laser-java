@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="017c0a2a-0efb-440f-ac78-4a729d007b78" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/UI/UIManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/opengl/OpenGL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/opengl/Shader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/opengl/Texture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/input/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/input/InputThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/input/KeyBinding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/input/KeyBindingStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/input/KeyListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/Osu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/GLFWWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/GLFWWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/Graphics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/MSAAFramebuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/opengl/MSAAFramebuffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/interaction/Interaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/Interaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/osu/desktop/interaction/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/interaction/audio/AudioSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/audio/AudioSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/interaction/input/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/input/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/logick/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/logic/OsuLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -45,9 +63,10 @@
     <property name="settings.editor.selected.configurable" value="krasa.IdeaIconPack" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="osu.desktop.input" />
-      <recent name="osu.desktop.audio" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/osu/game" />
+      <recent name="$PROJECT_DIR$/res/osu/Game/Resources" />
+      <recent name="$PROJECT_DIR$/res" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/res/osu/game/resources/Textures" />
@@ -57,10 +76,10 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="osu.Desktop.windows" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/res/osu/game" />
-      <recent name="$PROJECT_DIR$/res/osu/Game/Resources" />
-      <recent name="$PROJECT_DIR$/res" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="osu.desktop.interaction.input" />
+      <recent name="osu.desktop.input" />
+      <recent name="osu.desktop.audio" />
     </key>
   </component>
   <component name="RunManager">
@@ -120,59 +139,87 @@
       <option name="project" value="LOCAL" />
       <updated>1578739244716</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GLFWWindow() constructor created">
+      <created>1578747301881</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578747301881</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit&#10;some core classes added" />
     <MESSAGE value="Settings.validate and Settings.importSettings completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Settings.validate and Settings.importSettings completed" />
+    <MESSAGE value="GLFWWindow() constructor created" />
+    <option name="LAST_COMMIT_MESSAGE" value="GLFWWindow() constructor created" />
   </component>
   <component name="WindowStateProjectService">
     <state x="331" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578688387058">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="331" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578688387058" />
+    <state x="681" y="251" width="374" height="582" key="#com.intellij.ide.util.MemberChooser" timestamp="1578762501580">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="681" y="251" width="374" height="582" key="#com.intellij.ide.util.MemberChooser/67.27.1613.1023@67.27.1613.1023" timestamp="1578762501580" />
     <state x="626" y="425" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578735258749">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="626" y="425" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1613.1023@67.27.1613.1023" timestamp="1578735258749" />
-    <state x="630" y="27" width="476" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578736309237">
+    <state x="630" y="27" width="476" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578761175498">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state x="630" y="27" width="476" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578736309237" />
-    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578739244511">
+    <state x="630" y="27" width="476" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578761175498" />
+    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578747301430">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2/67.27.1613.1023@67.27.1613.1023" timestamp="1578739244511" />
+    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2/67.27.1613.1023@67.27.1613.1023" timestamp="1578747301430" />
     <state x="495" y="285" width="735" height="527" key="FileChooserDialogImpl" timestamp="1578737984524">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="495" y="285" width="735" height="527" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" timestamp="1578737984524" />
-    <state width="1567" height="266" key="GridCell.Tab.0.bottom" timestamp="1578747257964">
+    <state width="1567" height="328" key="GridCell.Tab.0.bottom" timestamp="1578763742655">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257964" />
-    <state width="1567" height="266" key="GridCell.Tab.0.center" timestamp="1578747257964">
+    <state width="1567" height="328" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742655" />
+    <state width="1567" height="328" key="GridCell.Tab.0.center" timestamp="1578763742654">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257964" />
-    <state width="1567" height="266" key="GridCell.Tab.0.left" timestamp="1578747257963">
+    <state width="1567" height="328" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742654" />
+    <state width="1567" height="328" key="GridCell.Tab.0.left" timestamp="1578763742654">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257963" />
-    <state width="1567" height="266" key="GridCell.Tab.0.right" timestamp="1578747257964">
+    <state width="1567" height="328" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742654" />
+    <state width="1567" height="328" key="GridCell.Tab.0.right" timestamp="1578763742655">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257964" />
+    <state width="1567" height="328" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742655" />
+    <state width="1567" height="328" key="GridCell.Tab.1.bottom" timestamp="1578763742656">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="328" key="GridCell.Tab.1.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742656" />
+    <state width="1567" height="328" key="GridCell.Tab.1.center" timestamp="1578763742655">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="328" key="GridCell.Tab.1.center/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742655" />
+    <state width="1567" height="328" key="GridCell.Tab.1.left" timestamp="1578763742655">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="328" key="GridCell.Tab.1.left/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742655" />
+    <state width="1567" height="328" key="GridCell.Tab.1.right" timestamp="1578763742656">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="328" key="GridCell.Tab.1.right/67.27.1613.1023@67.27.1613.1023" timestamp="1578763742656" />
     <state x="356" y="116" width="1024" height="852" key="SettingsEditor" timestamp="1578688209525">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="356" y="116" width="1024" height="852" key="SettingsEditor/67.27.1613.1023@67.27.1613.1023" timestamp="1578688209525" />
-    <state x="468" y="263" width="800" height="558" key="Vcs.Push.Dialog.v2" timestamp="1578738220066">
+    <state x="468" y="263" width="800" height="558" key="Vcs.Push.Dialog.v2" timestamp="1578747304721">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state x="468" y="263" width="800" height="558" key="Vcs.Push.Dialog.v2/67.27.1613.1023@67.27.1613.1023" timestamp="1578738220066" />
+    <state x="468" y="263" width="800" height="558" key="Vcs.Push.Dialog.v2/67.27.1613.1023@67.27.1613.1023" timestamp="1578747304721" />
     <state x="526" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1578746759888">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>

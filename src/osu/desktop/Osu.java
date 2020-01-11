@@ -3,17 +3,17 @@ package osu.desktop;
 import osu.desktop.graphics.windows.Graphics;
 import osu.desktop.interaction.Interaction;
 import osu.desktop.interaction.Settings;
-import osu.desktop.logick.GameLogic;
+import osu.desktop.logic.OsuLogic;
 
-public class Game {
+public class Osu {
     public Graphics graphics;
-    public GameLogic logic;
+    public OsuLogic logic;
     public Interaction interaction;
 
     public void initialise() {
         Settings.importSettings();
         graphics = new Graphics();
-        logic = new GameLogic();
+        logic = new OsuLogic();
         interaction = new Interaction();
         graphics.initialise();
         logic.initialise();

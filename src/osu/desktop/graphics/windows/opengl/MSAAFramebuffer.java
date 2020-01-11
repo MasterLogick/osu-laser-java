@@ -1,15 +1,11 @@
-package osu.desktop.graphics.windows;
+package osu.desktop.graphics.windows.opengl;
 
 public class MSAAFramebuffer {
     public MSAAFramebuffer(int msaaLevel) {
         //todo
     }
 
-    public void initialise() {
-        //todo
-    }
-
-    public void prepare() {
+    public void prepareForDraw() {
         //todo
     }
 

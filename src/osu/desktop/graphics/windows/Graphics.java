@@ -1,7 +1,9 @@
 package osu.desktop.graphics.windows;
 
 import org.lwjgl.glfw.GLFWErrorCallback;
-import org.lwjgl.opengl.GL;
+import org.lwjgl.glfw.GLFWKeyCallback;
+import osu.desktop.graphics.windows.UI.UIManager;
+import osu.desktop.graphics.windows.opengl.OpenGL;
 
 import static org.lwjgl.glfw.GLFW.glfwInit;
 
@@ -19,8 +21,8 @@ public class Graphics {
         mainScreen = new GLFWWindow();
         mainScreen.setCurrent();
         mainScreen.setVSync(1);
-//        GLFWWindow.initialise();
-        GL.createCapabilities();
-        //todo
+        //todo create mainScreen callbacks
+        OpenGL.initialise();
+        UIManager.initialise();
     }
 }

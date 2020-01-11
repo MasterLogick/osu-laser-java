@@ -4,4 +4,7 @@ public class AudioSystem {
     public AudioSystem(){
 
     }
+    public void initialise(){
+
+    }
 }
