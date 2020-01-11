@@ -8,4 +8,12 @@ public class KeyBinding {
         this.action = action;
         this.keyCombination = keyCombination;
     }
+
+    public int[] getKeyCombination() {
+        return keyCombination;
+    }
+
+    public Action getAction() {
+        return action;
+    }
 }
