@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="017c0a2a-0efb-440f-ac78-4a729d007b78" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WDcogfML1fJIkZHwFuLJMKxBa2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="krasa.IdeaIconPack" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="osu.desktop.input" />
+      <recent name="osu.desktop.audio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/osu/game/resources/Textures" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/res/osu/Game/Resources/Skins" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="osu.Desktop.windows" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/osu/game" />
+      <recent name="$PROJECT_DIR$/res/osu/Game/Resources" />
+      <recent name="$PROJECT_DIR$/res" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="osu.desktop.Main" />
+      <module name="osu!laser#java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="osu.desktop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="017c0a2a-0efb-440f-ac78-4a729d007b78" name="Default Changelist" comment="" />
+      <created>1578687782417</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578687782417</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="331" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578688387058">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="331" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578688387058" />
+    <state x="626" y="425" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578735258749">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="626" y="425" width="494" height="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/67.27.1613.1023@67.27.1613.1023" timestamp="1578735258749" />
+    <state x="630" y="27" width="476" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578736309237">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="630" y="27" width="476" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578736309237" />
+    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578738006417">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2/67.27.1613.1023@67.27.1613.1023" timestamp="1578738006417" />
+    <state x="495" y="285" width="735" height="527" key="FileChooserDialogImpl" timestamp="1578737984524">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="495" y="285" width="735" height="527" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" timestamp="1578737984524" />
+    <state width="1567" height="266" key="GridCell.Tab.0.bottom" timestamp="1578690415062">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="266" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415062" />
+    <state width="1567" height="266" key="GridCell.Tab.0.center" timestamp="1578690415061">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="266" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415061" />
+    <state width="1567" height="266" key="GridCell.Tab.0.left" timestamp="1578690415061">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="266" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415061" />
+    <state width="1567" height="266" key="GridCell.Tab.0.right" timestamp="1578690415062">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state width="1567" height="266" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415062" />
+    <state x="356" y="116" width="1024" height="852" key="SettingsEditor" timestamp="1578688209525">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="356" y="116" width="1024" height="852" key="SettingsEditor/67.27.1613.1023@67.27.1613.1023" timestamp="1578688209525" />
+    <state x="529" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1578727996455">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="529" y="366" key="com.intellij.ide.util.TipDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578727996455" />
+    <state x="537" y="161" width="662" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578689897085">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="537" y="161" width="662" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1613.1023@67.27.1613.1023" timestamp="1578689897085" />
+    <state x="682" y="279" width="362" height="533" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1578738001493">
+      <screen x="67" y="27" width="1613" height="1023" />
+    </state>
+    <state x="682" y="279" width="362" height="533" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578738001493" />
+  </component>
+</project>
