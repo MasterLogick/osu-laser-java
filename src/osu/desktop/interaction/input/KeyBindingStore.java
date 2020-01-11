@@ -53,16 +53,24 @@ public class KeyBindingStore {
     public void pushToSettings() {
         StringBuilder sb = new StringBuilder();
         store.forEach((action, ints) -> {
-            sb.append(action.ordinal()).append(":");
+            //foreach for actions
+            if (ints.isEmpty()) {
+                return;
+            }
+            sb.append(action.name()).append(":");
+            //foreach for combinations
             ints.forEach(ints1 -> {
-                for (int i :
-                        ints1) {
-                    sb.append(i).append("+");
+                //foreach for keys
+                for (int i = 0; i < ints1.length - 1; i++) {
+                    sb.append(ints1[i]).append("+");
                 }
+                sb.append(ints1[ints1.length - 1]);
                 sb.append(",");
             });
+            sb.deleteCharAt(sb.length() - 1);//remove last ','
             sb.append(";");
         });
+        sb.deleteCharAt(sb.length() - 1);//remove last ';'
         Settings.KeyBindings.set(sb.toString());
     }
 }

@@ -1,5 +1,6 @@
 package osu.desktop.interaction;
 
+import org.lwjgl.glfw.GLFW;
 import osu.desktop.Main;
 
 import java.util.prefs.BackingStoreException;
@@ -11,7 +12,7 @@ public class Settings {
     public static final Property Title = new Property("Title", "osu!laser#java");
     public static final Property MonitorId = new Property("MonitorId", "0");
     public static final Property MSAALevel = new Property("MSAALevel", "4");
-    public static final Property KeyBindings = new Property("KeyBindings", "");
+    public static final Property KeyBindings = new Property("KeyBindings", "Select:"+ GLFW.GLFW_KEY_ENTER);
     private static final Property[] allProps = new Property[]{
             TEST, VideoMode
     };
