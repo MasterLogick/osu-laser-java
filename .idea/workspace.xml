@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="017c0a2a-0efb-440f-ac78-4a729d007b78" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/osu/desktop/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/GLFWWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/GLFWWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/Graphics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/graphics/windows/Graphics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/osu/desktop/interaction/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/osu/desktop/interaction/Settings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,12 +113,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578738135936</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Settings.validate and Settings.importSettings completed">
+      <created>1578739244716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578739244716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit&#10;some core classes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit&#10;some core classes added" />
+    <MESSAGE value="Settings.validate and Settings.importSettings completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Settings.validate and Settings.importSettings completed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="331" y="196" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578688387058">
@@ -132,30 +141,30 @@
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="630" y="27" width="476" height="1023" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578736309237" />
-    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578738134568">
+    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2" timestamp="1578739244511">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2/67.27.1613.1023@67.27.1613.1023" timestamp="1578738134568" />
+    <state x="480" y="137" width="777" height="810" key="CommitChangelistDialog2/67.27.1613.1023@67.27.1613.1023" timestamp="1578739244511" />
     <state x="495" y="285" width="735" height="527" key="FileChooserDialogImpl" timestamp="1578737984524">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="495" y="285" width="735" height="527" key="FileChooserDialogImpl/67.27.1613.1023@67.27.1613.1023" timestamp="1578737984524" />
-    <state width="1567" height="266" key="GridCell.Tab.0.bottom" timestamp="1578690415062">
+    <state width="1567" height="266" key="GridCell.Tab.0.bottom" timestamp="1578747257964">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415062" />
-    <state width="1567" height="266" key="GridCell.Tab.0.center" timestamp="1578690415061">
+    <state width="1567" height="266" key="GridCell.Tab.0.bottom/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257964" />
+    <state width="1567" height="266" key="GridCell.Tab.0.center" timestamp="1578747257964">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415061" />
-    <state width="1567" height="266" key="GridCell.Tab.0.left" timestamp="1578690415061">
+    <state width="1567" height="266" key="GridCell.Tab.0.center/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257964" />
+    <state width="1567" height="266" key="GridCell.Tab.0.left" timestamp="1578747257963">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415061" />
-    <state width="1567" height="266" key="GridCell.Tab.0.right" timestamp="1578690415062">
+    <state width="1567" height="266" key="GridCell.Tab.0.left/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257963" />
+    <state width="1567" height="266" key="GridCell.Tab.0.right" timestamp="1578747257964">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state width="1567" height="266" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1578690415062" />
+    <state width="1567" height="266" key="GridCell.Tab.0.right/67.27.1613.1023@67.27.1613.1023" timestamp="1578747257964" />
     <state x="356" y="116" width="1024" height="852" key="SettingsEditor" timestamp="1578688209525">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
@@ -164,10 +173,10 @@
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
     <state x="468" y="263" width="800" height="558" key="Vcs.Push.Dialog.v2/67.27.1613.1023@67.27.1613.1023" timestamp="1578738220066" />
-    <state x="529" y="366" key="com.intellij.ide.util.TipDialog" timestamp="1578727996455">
+    <state x="526" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1578746759888">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>
-    <state x="529" y="366" key="com.intellij.ide.util.TipDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578727996455" />
+    <state x="526" y="365" key="com.intellij.ide.util.TipDialog/67.27.1613.1023@67.27.1613.1023" timestamp="1578746759888" />
     <state x="537" y="161" width="662" height="762" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578689897085">
       <screen x="67" y="27" width="1613" height="1023" />
     </state>

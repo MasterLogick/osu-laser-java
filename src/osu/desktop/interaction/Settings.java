@@ -7,8 +7,11 @@ import java.util.prefs.Preferences;
 
 public class Settings {
     public static final Property TEST = new Property("TEST", "TEST");
+    public static final Property VideoMode = new Property("VideoMode", "");
+    public static final Property Title = new Property("Title", "osu!laser#java");
+    public static final Property MonitorId = new Property("MonitorId", "0");
     private static final Property[] allProps = new Property[]{
-            TEST
+            TEST, VideoMode
     };
     private static Preferences preferences;
 
@@ -30,7 +33,6 @@ public class Settings {
                 allProps) {
             if (!preferences.nodeExists(property.name)) preferences.put(property.name, property.defaultValue);
         }
-//todo
     }
 
     public static class Property {
