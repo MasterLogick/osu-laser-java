@@ -9,10 +9,9 @@ public class Game {
     public Graphics graphics;
     public GameLogic logic;
     public Interaction interaction;
-    public Settings settings;
 
     public void initialise() {
-        Settings.importProperties();
+        Settings.importSettings();
         graphics = new Graphics();
         logic = new GameLogic();
         interaction = new Interaction();
