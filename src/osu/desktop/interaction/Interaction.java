@@ -1,5 +1,6 @@
 package osu.desktop.interaction;
 
+import osu.desktop.graphics.windows.Graphics;
 import osu.desktop.interaction.audio.AudioSystem;
 import osu.desktop.interaction.input.Input;
 
@@ -13,5 +14,9 @@ public class Interaction {
         audio.initialise();
         input.initialise();
         //todo
+    }
+
+    public void run(Graphics graphics) {
+
     }
 }

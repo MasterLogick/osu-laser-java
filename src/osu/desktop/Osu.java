@@ -6,6 +6,7 @@ import osu.desktop.interaction.Settings;
 import osu.desktop.logic.OsuLogic;
 
 public class Osu {
+    public static boolean shouldClose = false;
     public Graphics graphics;
     public OsuLogic logic;
     public Interaction interaction;
@@ -21,6 +22,6 @@ public class Osu {
     }
 
     public void run() {
-
+        logic.run(graphics, interaction);
     }
 }

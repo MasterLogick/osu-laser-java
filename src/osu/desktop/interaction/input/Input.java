@@ -7,6 +7,7 @@ public class Input {
     private KeyBindingStore keyBindingStore;
 
     public Input() {
+        //todo create window callbacks
         windowCallback = new InputThread();
     }
 

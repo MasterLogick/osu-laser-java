@@ -1,7 +1,7 @@
 package osu.desktop.graphics.windows.opengl;
 
-public class MSAAFramebuffer {
-    public MSAAFramebuffer(int msaaLevel) {
+public class MSAASystem {
+    public MSAASystem(int msaaLevel) {
         //todo
     }
 
@@ -9,7 +9,7 @@ public class MSAAFramebuffer {
         //todo
     }
 
-    public void render(int drawFramebuffer) {
+    public void render(int destinationFramebuffer) {
         //todo
     }
 }

@@ -1,13 +1,15 @@
 package osu.desktop.graphics.windows;
 
 import org.lwjgl.glfw.GLFWErrorCallback;
-import org.lwjgl.glfw.GLFWKeyCallback;
+import osu.desktop.Osu;
 import osu.desktop.graphics.windows.UI.UIManager;
+import osu.desktop.graphics.windows.opengl.GameDrawer;
 import osu.desktop.graphics.windows.opengl.OpenGL;
+import osu.desktop.interaction.Interaction;
 
 import static org.lwjgl.glfw.GLFW.glfwInit;
 
-public class Graphics {
+public class Graphics extends Thread {
     public static GLFWWindow mainScreen;
 
     private static void initGLFW() {
@@ -24,5 +26,18 @@ public class Graphics {
         //todo create mainScreen callbacks
         OpenGL.initialise();
         UIManager.initialise();
+    }
+
+    public void run(Interaction interaction) {
+        this.start();
+    }
+
+    @Override
+    public void run() {
+        while (!Osu.shouldClose) {
+            OpenGL.prepareForDrawing();
+            GameDrawer.draw();
+            OpenGL.render();
+        }
     }
 }
